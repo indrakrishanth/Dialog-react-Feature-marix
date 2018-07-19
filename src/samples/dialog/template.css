@@ -1,0 +1,118 @@
+
+button#sendButton {
+    top: 2px;
+    position: relative;
+  }
+  .target-element .e-dialog .e-dlg-header-content {
+    background-color: #3f51b5;
+  }
+  .target-element {
+      min-height: 360px;
+  }
+  
+  .target-element .e-dialog .e-dlg-header-content .e-btn.e-dlg-closeicon-btn {
+    top: 5px;
+    left: -11px;
+  }
+  .target-element .e-dialog .e-dlg-header {
+    position: relative;
+  }
+  .target-element .e-dialog .e-footer-content {
+    padding: 15px;
+  }
+  .target-element .e-dialog .e-dlg-content {
+    padding: 0;
+  }
+  
+  .target-element .e-dialog .e-dlg-header-content {
+    padding: 6px;
+  }
+
+  .target-element .e-open-icon::before {
+    content: '\e782';
+  }
+  .target-element .e-dialog .e-dlg-header img.img2 {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    vertical-align: middle;
+    display: inline-block;
+  }
+  #dlg-template {
+    display: inline-block;
+    padding: 0px 10px;
+    vertical-align: middle;
+    height: 40px;
+    line-height: 40px;
+  }
+  .target-element input.e-input {
+    width: 75%;
+    float: left;
+  }
+  .target-element .e-icon-settings.e-icons {
+    float: left;
+    position: relative;
+    left: 14%;
+    top: -33px;
+  }
+  
+  .target-element .dialogContent .dialogText {
+    font-size: 13px;
+    padding: 5%;
+    word-wrap: break-word;
+    border-radius: 6px;
+    text-align: justify;
+    font-style: initial;
+    display: block;
+  }
+  .target-element .e-dlg-header .e-icon-settings, .target-element .e-icon-btn {
+    color: #fff;
+  }
+  
+  .target-element .dialogContent .dialogText {
+    background-color: #f5f5f5;
+  }
+  
+  .target-element .e-dialog .e-footer-content, .fabric .target-element .e-dialog .e-footer-content {
+    border-top: 0.5px solid rgba(0, 0, 0, 0.42);
+  }
+  
+  .target-element .dialogContent {
+    display: block;
+    font-size: 15px;
+    word-wrap: break-word;
+    text-align: center;
+    font-style: italic;
+    border-radius: 6px;
+    padding: 3%;
+    position: relative;
+    top: 5px;
+  }
+  
+  .control-wrapper .e-control.e-dialog {
+    width: 30%;
+  }
+  .target-element .e-dialog .e-dlg-header-content .e-icon-dlg-close {
+  color: #fff;
+  }
+  
+  .material .target-element .e-dialog .e-dlg-header-content .e-btn.e-dlg-closeicon-btn:hover,
+  .material .target-element .e-dialog .e-dlg-header-content .e-btn.e-dlg-closeicon-btn:focus {
+    background-color: rgba(255,255,255, 0.10);
+  }
+  .material .target-element .e-dialog .e-dlg-header-content .e-btn.e-dlg-closeicon-btn:active .e-icon-dlg-close ,
+  .material .target-element .e-dialog .e-dlg-header-content .e-btn.e-dlg-closeicon-btn:focus .e-icon-dlg-close,
+  .material .target-element .e-dialog .e-dlg-header-content .e-btn.e-dlg-closeicon-btn:hover .e-icon-dlg-close {
+    color: #fff;
+  }
+  
+  .target-element .e-dialog.e-rtl .e-dlg-header-content .e-dlg-closeicon-btn.e-btn {
+    top: 4px;
+    margin-left: 20px;
+  }
+  .target-element .e-rtl input.e-input {
+    width: 75%;
+    float: right;
+    margin-right: 9px;
+  }
+  
